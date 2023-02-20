@@ -184,3 +184,8 @@ def homepage(request):
 
 def new_fun(request):
 	return HttpResponse("<h1>This is new function</h1><hr />");
+
+def new_fun2(request):
+	return HttpResponse("<h1>This is new function2</h1><hr />");
+
+
