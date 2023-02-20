@@ -181,3 +181,6 @@ def homepage(request):
         <h3>Plz try other URL or Links!!!</h3>
     </center>''';
     return HttpResponse(htmldata);
+
+def new_fun(request):
+	return HttpResponse("<h1>This is new function</h1><hr />");
